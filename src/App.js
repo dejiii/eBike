@@ -1,10 +1,19 @@
 import "./App.css";
-import { CustomerReviews, Details, Footer, LandingPage } from "./components";
+import {
+  // BikeCarousels,
+  CustomerReviews,
+  Details,
+  Footer,
+  LandingPage,
+  // Nav,
+} from "./components";
 
 function App() {
   return (
     <div className="App">
+      {/* <Nav /> */}
       <LandingPage />
+      {/* <BikeCarousels /> */}
       <Details />
       <CustomerReviews />
       <Footer />

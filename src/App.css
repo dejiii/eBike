@@ -52,3 +52,17 @@ body {
   margin: 0 auto;
   width: 70%;
 }
+
+.small-push {
+  padding-left: 50px !important;
+}
+
+.homepage-padding {
+  padding: 150px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .small-push {
+    padding-left: 0 !important;
+  }
+}

@@ -13,7 +13,7 @@ const Details = () => {
             <DetailsCard />
           </div>
           {/* <div className="col-md-1" /> */}
-          <div className="col-md-4">
+          <div className="col-md-4 small-push">
             <DetailsHeading>Hybrid Bikes</DetailsHeading>
             <DetailText>
               Dummy Text progressive, and affordable healthcare,
