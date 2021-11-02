@@ -6,7 +6,7 @@ export const DetailsHeading = styled.h1`
   line-height: 56px;
   font-weight: 700;
   color: ${Colors.black};
-  /* margin-top: 20px; */
+  margin-top: 20px;
 `;
 
 export const DetailText = styled.p`
@@ -39,5 +39,5 @@ export const DetailsPriceTag = styled.p`
 `;
 
 export const DetailsWrapper = styled.div`
-  padding: 200px 0 200px;
+  padding: 150px 0 200px;
 `;

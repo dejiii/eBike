@@ -16,6 +16,10 @@ export const FooterDesc = styled.div`
   font-size: 18px;
   line-height: 28px;
   margin-top: 20px;
+
+  @media screen and (max-width: 600px) {
+    max-width: 100%;
+  }
 `;
 
 export const FooterYear = styled.div`
