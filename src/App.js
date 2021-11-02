@@ -1,10 +1,12 @@
 import "./App.css";
-import { Details, Footer } from "./components";
+import { CustomerReviews, Details, Footer, LandingPage } from "./components";
 
 function App() {
   return (
     <div className="App">
+      <LandingPage />
       <Details />
+      <CustomerReviews />
       <Footer />
     </div>
   );

@@ -11,6 +11,14 @@ const DetailsCard = () => {
   return (
     <DetailsCardWrapper>
       {/* <img src={Rider} alt="" /> */}
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minima,
+        porro at deleniti, error tempora magnam necessitatibus aut ipsa ex,
+        doloremque quis nemo quibusdam commodi! Hic animi veritatis in sit?
+        error tempora magnam necessitatibus aut ipsa ex, doloremque quis nemo
+        quibusdam error tempora magnam necessitatibus aut ipsa ex, doloremque
+        quis nemo quibusdam
+      </p>
       <hr />
       <div className="row">
         <div className="d-flex justify-content-between align-items-center">
