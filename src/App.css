@@ -1,0 +1,21 @@
+/* @import "~bootstrap/scss/bootstrap"; */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
+
+*,
+body {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-wrapper {
+  background-color: #fcb72b;
+  padding: 110px 0;
+  color: #fff;
+}
+
+.footer-left-pattern {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
