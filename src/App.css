@@ -35,6 +35,7 @@ body {
 .hompage-search::placeholder {
   color: #c2cfe0 !important;
 }
+
 .hompage-icon {
   height: 20px;
   margin-left: 10px;
@@ -234,6 +235,15 @@ body {
 
 .slick-prev:before {
   display: none !important;
+}
+
+.bike-carousel-image {
+  transition: ease-in-out 0.3s color;
+  cursor: pointer;
+}
+
+.bike-carousel-image:hover .bike-carousel-text {
+  color: #fcb72b !important;
 }
 
 .slide-slide @media screen and (max-width: 1200px) {
