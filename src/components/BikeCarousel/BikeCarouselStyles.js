@@ -6,6 +6,7 @@ export const CarouselHeader = styled.h1`
   line-height: 56px;
   font-weight: 600;
   font-size: 24px;
+  margin-top: 80px;
 `;
 
 export const CarouselText = styled.p`

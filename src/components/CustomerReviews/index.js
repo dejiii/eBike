@@ -15,26 +15,28 @@ const CustomerReviews = () => {
       <div className="row">
         <div className="col-md-2" />
         <div className="col-md-8">
-          <ReviewCard>
-            <ReviewCardHeader>What our customer are saying</ReviewCardHeader>
-            <div className="row align-items-center">
-              <div className="col-md-4">
-                <img src={Placeholder} alt="" className="d-flex m-auto" />
-                <ReviewerName>Edward Newgate</ReviewerName>
-                <ReviewerRole>Pro-Cycler</ReviewerRole>
+          <div className="cr-relative">
+            <ReviewCard>
+              <ReviewCardHeader>What our customer are saying</ReviewCardHeader>
+              <div className="row align-items-center">
+                <div className="col-md-4">
+                  <img src={Placeholder} alt="" className="d-flex m-auto" />
+                  <ReviewerName>Edward Newgate</ReviewerName>
+                  <ReviewerRole>Pro-Cycler</ReviewerRole>
+                </div>
+                <div className="col-md-8">
+                  <ReviewText>
+                    Dummy Text patient engagement app and web portal allow you
+                    to access information instantaneously (no tedeous form, long
+                    calls, or administrative hassle) and securely”
+                  </ReviewText>
+                </div>
               </div>
-              <div className="col-md-8">
-                <ReviewText>
-                  Dummy Text patient engagement app and web portal allow you to
-                  access information instantaneously (no tedeous form, long
-                  calls, or administrative hassle) and securely”
-                </ReviewText>
-              </div>
-            </div>
-          </ReviewCard>
+            </ReviewCard>
+            <img src={Pattern} alt="" className="pattern-2" />
+          </div>
         </div>
         <div className="col-md-2" />
-        <img src={Pattern} alt="" className="pattern-2" />
       </div>
     </div>
   );
