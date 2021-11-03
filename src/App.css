@@ -1,4 +1,3 @@
-/* @import "~bootstrap/scss/bootstrap"; */
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
 
 *,
@@ -10,8 +9,7 @@ body {
 
 .footer-wrapper {
   background-color: #fcb72b;
-  margin-top: 150px;
-  padding: 110px 0;
+  padding: 110px 0 0;
   color: #fff;
 }
 
@@ -246,7 +244,7 @@ body {
   color: #fcb72b !important;
 }
 
-.slide-slide @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .web-nav {
     display: none;
   }
@@ -254,6 +252,16 @@ body {
   .mobile-nav {
     display: block;
   }
+}
+
+.yup {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.ttt {
+  padding-bottom: 150px;
 }
 
 @media screen and (max-width: 800px) {

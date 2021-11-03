@@ -7,6 +7,7 @@ export const ReviewCard = styled.div`
   position: relative;
   padding: 60px;
   color: ${Colors.white};
+  margin-bottom: 200px;
 `;
 
 export const ReviewCardHeader = styled.h1`
