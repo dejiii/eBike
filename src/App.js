@@ -1,19 +1,19 @@
 import "./App.css";
 import {
-  // BikeCarousels,
+  BikeCarousels,
   CustomerReviews,
   Details,
   Footer,
   LandingPage,
-  // Nav,
+  Nav,
 } from "./components";
 
 function App() {
   return (
     <div className="App">
-      {/* <Nav /> */}
+      <Nav />
       <LandingPage />
-      {/* <BikeCarousels /> */}
+      <BikeCarousels />
       <Details />
       <CustomerReviews />
       <Footer />

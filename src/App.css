@@ -61,6 +61,62 @@ body {
   padding: 150px 0;
 }
 
+.nav-wrapper {
+  padding: 50px 0 0;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  color: #7d7987;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.nav-link:last-child {
+  padding-right: 0;
+}
+
+.nav-link:first-child {
+  font-weight: bold;
+  color: #233348;
+  font-weight: 700;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.nav-links-wrapper {
+  background-color: #fcb72b;
+  padding: 30px;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+  position: absolute;
+}
+
+.test-x {
+  color: red !important;
+}
+
+.test-x:hover {
+  color: #fff !important;
+  transition: ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 1200px) {
+  .web-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .small-push {
     padding-left: 0 !important;

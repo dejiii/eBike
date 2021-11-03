@@ -29,7 +29,8 @@ const Footer = () => {
       <img src={Pattern} alt="" className="footer-left-pattern" />
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-2" />
+          <div className="col-md-4">
             <FooterHeader>
               <img src={LogoFooter} alt="" />
             </FooterHeader>
@@ -40,7 +41,7 @@ const Footer = () => {
             <FooterYear>©eBike 2021. All rights reserved</FooterYear>
           </div>
           <div className="col-md-2">
-            <FooterHeader>Large</FooterHeader>
+            <FooterHeader>Company</FooterHeader>
             {companyLinks.map((companyLinks, i) => (
               <FooterLinks key={i}>{companyLinks.name}</FooterLinks>
             ))}

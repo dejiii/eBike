@@ -8,13 +8,14 @@ export const FooterHeader = styled.p`
 
 export const FooterLinks = styled.p`
   font-size: 18px;
-  line-height: 38px;
+  line-height: 28px;
 `;
 
 export const FooterDesc = styled.div`
-  max-width: 60%;
+  max-width: 75%;
   font-size: 18px;
   line-height: 28px;
+  font-weight: 300;
   margin-top: 20px;
 
   @media screen and (max-width: 600px) {
