@@ -4,6 +4,7 @@ import { CarouselHeader } from "./BikeCarouselStyles";
 import Slider from "react-slick";
 import bike from "../../assets/bike2.png";
 import BikeCardCarousel from "./BikeCardCarousel";
+import Blob2 from "../../assets/blob2.png";
 
 const BikeCarousels = () => {
   var settings = {
@@ -25,33 +26,36 @@ const BikeCarousels = () => {
   ];
 
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-md-2" />
-        <div className="col-md-8">
-          <BikeCardCarousel />
-        </div>
-        <div className="col-md-2" />
-      </div>
-      <div className="row test">
-        <div className="col-md-2" />
-        <div className="col-md-8">
-          <CarouselHeader>Other Type Of Bikes</CarouselHeader>
-          <div>
-            <Slider {...settings}>
-              {bikes.map((bikes, i) => (
-                <div key={i} className="bike-carousel-image">
-                  <img src={bike} alt="" className="img" />
-                  <div className="bike-carousel-text text-center">
-                    {bikes.name}
-                  </div>
-                </div>
-              ))}
-            </Slider>
+    <div className="details-wrapper">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-2" />
+          <div className="col-md-8">
+            <BikeCardCarousel />
           </div>
+          <div className="col-md-2" />
         </div>
-        <div className="col-md-2" />
+        <div className="row test">
+          <div className="col-md-2" />
+          <div className="col-md-8">
+            <CarouselHeader>Other Type Of Bikes</CarouselHeader>
+            <div>
+              <Slider {...settings}>
+                {bikes.map((bikes, i) => (
+                  <div key={i} className="bike-carousel-image">
+                    <img src={bike} alt="" className="img" />
+                    <div className="bike-carousel-text text-center">
+                      {bikes.name}
+                    </div>
+                  </div>
+                ))}
+              </Slider>
+            </div>
+          </div>
+          <div className="col-md-2" />
+        </div>
       </div>
+      <img src={Blob2} alt="" className="blob2" />
     </div>
   );
 };

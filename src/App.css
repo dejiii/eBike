@@ -174,7 +174,7 @@ body {
 }
 
 .large-slider {
-  padding: 20px 0;
+  margin: 20px;
 }
 
 .large-slider .slick-next:before {
@@ -224,6 +224,16 @@ body {
 
 .test .slick-slide img:hover {
   border: 2px solid #fcb72b;
+}
+
+.blob2 {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.slick-prev:before {
+  display: none !important;
 }
 
 .slide-slide @media screen and (max-width: 1200px) {

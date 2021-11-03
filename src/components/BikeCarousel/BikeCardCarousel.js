@@ -13,7 +13,7 @@ const BikeCardCarousel = () => {
 
   return (
     <div>
-      <Slider {...settings} className="large-slider">
+      <Slider {...settings} className="large-slider bg-white">
         <div className="slider-child">
           <BikeCard title="Universal eBike Kit" price="750" />
         </div>
